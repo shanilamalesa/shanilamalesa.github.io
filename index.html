@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shanila Jacob: Computer Science student at the University of Birmingham building fintech and WhatsApp products with Node.js, PostgreSQL and React.">
+    <title>Shanila Jacob | Full-stack Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Apply saved theme before paint to avoid a flash -->
+    <script>
+        document.documentElement.classList.remove('no-js');
+        try {
+            const t = localStorage.getItem('theme');
+            if (t) document.documentElement.dataset.theme = t;
+        } catch (e) {}
+    </script>
+</head>
+<body>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ===== Header ===== -->
+    <header class="portfolio-header">
+        <div class="header-inner">
+            <a href="#top" class="logo" aria-label="Back to top">SJM<span>.</span></a>
+
+            <nav class="profile-nav" id="primary-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+                    <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+                </button>
+                <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="top">
+
+        <!-- ===== Hero ===== -->
+        <section class="hero-section">
+            <div class="hero-container">
+
+                <div class="hero-image-block reveal">
+                    <div class="image-wrapper tilt">
+                        <img src="images/img1.jpeg" alt="Shanila Jacob" class="profile-img">
+                    </div>
+                    <div class="status-badge">
+                        <span class="pulse"></span> Open to internships &amp; placements
+                    </div>
+                </div>
+
+                <div class="hero-text-block reveal">
+                    <p class="profile-id">SJM537</p>
+                    <h1 class="profile-name">Shanila Jacob</h1>
+
+                    <p class="p1">
+                        <span class="typed" data-words='["A Fullstack Dev","A Fintech Builder","A CS Student @ UoB"]'>A Fullstack Dev</span>
+                        <span class="dot-container">
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </span>
+                    </p>
+
+                    <p class="hero-lead">
+                        Computer Science student at the University of Birmingham, building
+                        full-stack products with Node.js, PostgreSQL and React, from M-Pesa
+                        payment flows to WhatsApp bots.
+                    </p>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary magnetic">View my work</a>
+                        <a href="#contact" class="btn btn-ghost magnetic">Get in touch</a>
+                    </div>
+
+                    <div class="socials">
+                        <a href="https://github.com/shanilamalesa" aria-label="GitHub" class="social" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.6 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/shanila-malesa-8034653a8" aria-label="LinkedIn" class="social" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6h.1c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+                        </a>
+                        <a href="#contact" aria-label="Email" class="social">
+                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-cue" aria-label="Scroll to About">
+                <span></span>
+            </a>
+        </section>
+
+        <!-- ===== Marquee ===== -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>Node.js</span><span>✦</span><span>PostgreSQL</span><span>✦</span><span>React</span><span>✦</span>
+                <span>Next.js</span><span>✦</span><span>Express</span><span>✦</span><span>Redis</span><span>✦</span>
+                <span>M-Pesa Daraja</span><span>✦</span><span>WhatsApp Cloud API</span><span>✦</span>
+                <span>Node.js</span><span>✦</span><span>PostgreSQL</span><span>✦</span><span>React</span><span>✦</span>
+                <span>Next.js</span><span>✦</span><span>Express</span><span>✦</span><span>Redis</span><span>✦</span>
+                <span>M-Pesa Daraja</span><span>✦</span><span>WhatsApp Cloud API</span><span>✦</span>
+            </div>
+        </div>
+
+        <!-- ===== About ===== -->
+        <section id="about" class="section">
+            <div class="section-head reveal">
+                <span class="section-num">01</span>
+                <h2 class="section-title">About me</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-photo reveal">
+                    <div class="photo-stack">
+                        <img src="images/img2.jpeg" alt="Shanila at work with headphones" class="photo back">
+                        <img src="images/img3.jpeg" alt="Shanila smiling" class="photo front">
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <p class="about-lead">
+                        I build technology that solves meaningful problems, especially where
+                        payments, messaging and backend systems meet.
+                    </p>
+                    <p>
+                        I'm a second-year Computer Science student at the University of Birmingham,
+                        and most of what I know I've learned by shipping real projects alongside my
+                        degree. I've built platforms that take M-Pesa payments, run WhatsApp bots,
+                        and keep data safe with PostgreSQL transactions and Row-Level Security.
+                    </p>
+                    <p>
+                        I'm most interested in fintech, developer tooling and scalable backend systems,
+                        and I'm looking for an internship or placement where I can contribute from day one
+                        while continuing to grow.
+                    </p>
+
+                    <ul class="about-facts">
+                        <li><span>Studying</span>BSc Computer Science</li>
+                        <li><span>Based in</span>Birmingham, UK</li>
+                        <li><span>Seeking</span>Internship / placement</li>
+                    </ul>
+
+                    <ul class="interests" aria-label="Interests">
+                        <li>💳 Fintech</li><li>⚙️ Backend systems</li><li>🌍 African tech ecosystems</li>
+                        <li>🔓 Open source</li><li>🏃🏾‍♀️ Running &amp; fitness</li>
+                    </ul>
+
+                    <a href="cv.pdf" class="btn btn-ghost magnetic" download="Shanila_Malesa_CV.pdf">
+                        Download CV
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Projects ===== -->
+        <section id="projects" class="section">
+            <div class="section-head reveal">
+                <span class="section-num">02</span>
+                <h2 class="section-title">Selected projects</h2>
+            </div>
+
+            <div class="filters reveal" role="tablist" aria-label="Filter projects">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="payments">M-Pesa payments</button>
+                <button class="filter" data-filter="whatsapp">WhatsApp</button>
+                <button class="filter" data-filter="saas">Multi-tenant SaaS</button>
+            </div>
+
+            <!-- data-category: space-separated list matching the filter buttons above -->
+            <div class="cards">
+                <article class="card reveal" data-category="payments saas">
+                    <div class="card-top">
+                        <span class="card-event">2026</span>
+                        <span class="card-award"><span class="live-dot"></span>In progress</span>
+                    </div>
+                    <h3 class="card-title">EduLevy</h3>
+                    <p class="card-sub">Multi-tenant school fee platform</p>
+                    <ul class="card-points">
+                        <li>Multi-tenant PostgreSQL schema where Row-Level Security policies stop one school from reading another's records.</li>
+                        <li>Auth and fee/charge REST endpoints in a layered routes → services → repositories structure.</li>
+                        <li>M-Pesa STK Push so parents pay from their phone, with verified webhooks and duplicate-safe payment records.</li>
+                    </ul>
+                    <ul class="tags"><li>Next.js</li><li>Express</li><li>PostgreSQL</li><li>Redis</li><li>M-Pesa Daraja</li></ul>
+                    <div class="card-links">
+                        <a href="https://github.com/shanilamalesa/Edulevy-project" class="card-link" target="_blank" rel="noopener">View code ↗</a>
+                    </div>
+                </article>
+
+                <article class="card reveal" data-category="payments whatsapp">
+                    <div class="card-top">
+                        <span class="card-event">2025</span>
+                        <span class="card-award">Payments</span>
+                    </div>
+                    <h3 class="card-title">WhatsApp CRM + M-Pesa</h3>
+                    <p class="card-sub">Chat-commerce payments platform</p>
+                    <ul class="card-points">
+                        <li>Receives WhatsApp messages via HMAC-verified webhooks, replies with an automated bot and takes M-Pesa payments.</li>
+                        <li>Callback handling with status polling as a fallback, written so a repeated callback is never recorded twice.</li>
+                        <li>PDF receipts sent on WhatsApp, plus a React dashboard with JWT login and role-based access.</li>
+                    </ul>
+                    <ul class="tags"><li>Node.js</li><li>PostgreSQL</li><li>WhatsApp Cloud API</li><li>M-Pesa Daraja</li><li>PDFKit</li><li>React</li></ul>
+                    <div class="card-links">
+                        <a href="https://github.com/shanilamalesa/WhatsApp-Mpesa-CRM" class="card-link" target="_blank" rel="noopener">View code ↗</a>
+                    </div>
+                </article>
+
+                <article class="card reveal" data-category="whatsapp">
+                    <div class="card-top">
+                        <span class="card-event">2025</span>
+                        <span class="card-award">Logistics</span>
+                    </div>
+                    <h3 class="card-title">Boda Dispatch</h3>
+                    <p class="card-sub">WhatsApp delivery CRM</p>
+                    <ul class="card-points">
+                        <li>Dispatch system that runs directly inside WhatsApp using the WhatsApp Cloud API.</li>
+                        <li>Migrated SQLite → PostgreSQL, using transactions and row-level locking so two riders can't claim the same delivery.</li>
+                        <li>Round-robin algorithm to share deliveries between riders, with separate access for dispatchers and riders.</li>
+                    </ul>
+                    <ul class="tags"><li>Node.js</li><li>PostgreSQL</li><li>WhatsApp Cloud API</li><li>JWT</li><li>React</li></ul>
+                    <div class="card-links">
+                        <a href="https://github.com/shanilamalesa/A-WhatsApp-Delivery-Request-CRM" class="card-link" target="_blank" rel="noopener">View code ↗</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="more-work reveal">
+                <a href="https://github.com/shanilamalesa" class="btn btn-ghost magnetic" target="_blank" rel="noopener">More on GitHub ↗</a>
+            </div>
+        </section>
+
+        <!-- ===== Journey: hackathons, events, education ===== -->
+        <section id="journey" class="section">
+            <div class="section-head reveal">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Hackathons &amp; journey</h2>
+            </div>
+
+            <ol class="timeline">
+                <li class="tl-item reveal">
+                    <span class="tl-date">2025 – 2028</span>
+                    <div class="tl-body">
+                        <span class="tl-kind">Education</span>
+                        <h3>BSc Computer Science</h3>
+                        <p class="tl-place">University of Birmingham · expected 2028</p>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <span class="tl-date">2025</span>
+                    <div class="tl-body">
+                        <span class="tl-kind tl-hack">Hackathon</span>
+                        <h3>Canva GenC Student Hackathon</h3>
+                        <p class="tl-place">University of Birmingham · team of four</p>
+                        <p>Analysed a nonprofit's branding problem, built a full pitch deck with Canva's AI tools.</p>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <span class="tl-date">2025</span>
+                    <div class="tl-body">
+                        <span class="tl-kind tl-hack">Tech event</span>
+                        <h3>Live demo: WhatsApp lead-capture bot</h3>
+                        <p class="tl-place">Corporate tech event</p>
+                        <p>Demonstrated a lead-capture bot built on the WhatsApp Cloud API.</p>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <span class="tl-date">2025</span>
+                    <div class="tl-body">
+                        <span class="tl-kind">Education</span>
+                        <h3>Foundation Certificate in Science &amp; Engineering · 78%</h3>
+                        <p class="tl-place">Kaplan International College, London</p>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <span class="tl-date">2024</span>
+                    <div class="tl-body">
+                        <span class="tl-kind">Education</span>
+                        <h3>High School Diploma</h3>
+                        <p class="tl-place">The Great St Albert Girls High School, Kenya</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <!-- ===== Skills ===== -->
+        <section id="skills" class="section">
+            <div class="section-head reveal">
+                <span class="section-num">04</span>
+                <h2 class="section-title">Skills</h2>
+            </div>
+
+            <div class="skills-wrap reveal">
+                <div class="skill-tabs" role="tablist">
+                    <button class="skill-tab active" role="tab" aria-selected="true" data-tab="stack">Languages &amp; frameworks</button>
+                    <button class="skill-tab" role="tab" aria-selected="false" data-tab="backend">Backend &amp; data</button>
+                    <button class="skill-tab" role="tab" aria-selected="false" data-tab="apis">APIs &amp; security</button>
+                    <button class="skill-tab" role="tab" aria-selected="false" data-tab="tools">Tools</button>
+                </div>
+
+                <div class="skill-panel active" id="stack" role="tabpanel">
+                    <ul class="tool-grid">
+                        <li>JavaScript (Node.js)</li><li>SQL</li><li>Express</li><li>React</li>
+                        <li>Next.js <small>App Router · Server Actions</small></li><li>Tailwind CSS</li><li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-panel" id="backend" role="tabpanel">
+                    <ul class="tool-grid">
+                        <li>PostgreSQL <small>schema design · transactions</small></li>
+                        <li>Row-level locking</li><li>Row-Level Security</li><li>Redis</li>
+                        <li>REST APIs</li><li>Layered architecture <small>routes → services → repos</small></li>
+                        <li>Webhooks</li><li>USSD / chat state machines</li><li>PDFKit</li>
+                    </ul>
+                </div>
+
+                <div class="skill-panel" id="apis" role="tabpanel">
+                    <ul class="tool-grid">
+                        <li>M-Pesa Daraja <small>STK Push · callbacks</small></li><li>WhatsApp Cloud API</li>
+                        <li>Telegram Bot API</li><li>Africa's Talking <small>USSD · SMS</small></li>
+                        <li>JWT</li><li>bcrypt</li><li>HMAC webhook verification</li>
+                    </ul>
+                </div>
+
+                <div class="skill-panel" id="tools" role="tabpanel">
+                    <ul class="tool-grid">
+                        <li>Git &amp; GitHub</li><li>VS Code</li><li>ngrok</li>
+                        <li>Docker <small>learning</small></li><li>Postman</li><li>Vercel</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="section contact">
+            <div class="contact-card reveal">
+                <span class="section-num">05</span>
+                <h2 class="contact-title">Let's build something<br>together.</h2>
+                <p class="contact-sub">
+                    Looking for an intern or placement student for a fintech or backend team,
+                    or a teammate for your next hackathon? My inbox is always open.
+                </p>
+
+                <!-- Messages are delivered to your inbox by Web3Forms (web3forms.com).
+                     The access key below is meant to be public; it can only send messages to you. -->
+                <form class="contact-form" data-access-key="2f734a1b-9b20-41ca-9e30-3bb9e959bdec" novalidate>
+                    <div class="form-row">
+                        <label class="field">
+                            <span>Name</span>
+                            <input type="text" name="name" autocomplete="name" required maxlength="100">
+                        </label>
+                        <label class="field">
+                            <span>Email</span>
+                            <input type="email" name="email" autocomplete="email" required maxlength="150">
+                        </label>
+                    </div>
+                    <label class="field">
+                        <span>Message</span>
+                        <textarea name="message" rows="5" required maxlength="3000"></textarea>
+                    </label>
+                    <!-- spam trap: real visitors never see or fill this -->
+                    <input type="checkbox" name="botcheck" class="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
+                    <button type="submit" class="btn btn-primary form-submit">
+                        <span class="submit-label">Send message →</span>
+                    </button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="contact-actions">
+                    <button class="email-copy magnetic" data-email="shanilamalesa1@gmail.com">
+                        <span class="email-text">shanilamalesa1@gmail.com</span>
+                        <span class="copy-hint">Click to copy</span>
+                    </button>
+                    <a href="https://www.linkedin.com/in/shanila-malesa-8034653a8" class="btn btn-outline-light magnetic" target="_blank" rel="noopener">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Shanila Jacob. Designed &amp; built by me.</p>
+        <a href="#top" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
